@@ -1,0 +1,3 @@
+module AdvancedJavaPractice {
+    requires junit;
+}
