@@ -68,7 +68,7 @@ public class BenimYöntemim {
         double kkackilo =Double.valueOf(JOptionPane.showInputDialog(null , "Kaç Kilo Kavun Aldınız ?"));
         double ksonuç = kavunkilo * kkackilo;
 
-        double uzumkilo = (float) 1.75;//Üzüm   Kilo ; 90.70
+        double uzumkilo =90.70;//Üzüm   Kilo ; 90.70
         double ukackilo =Double.valueOf(JOptionPane.showInputDialog(null , "Kaç Kilo Üzüm Aldınız ?"));
         double usonuç = uzumkilo * ukackilo ;
 

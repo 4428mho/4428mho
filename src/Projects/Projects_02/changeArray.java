@@ -36,6 +36,7 @@ public class changeArray {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("meyve isimleri giriniz");
         String myStr = scan.nextLine();
         String[] UseThisArray = myStr.split(" ");
 
@@ -45,7 +46,7 @@ public class changeArray {
 
         for(int i = 0 ; i<UseThisArray.length ; i++){
 
-            if(UseThisArray[i].equals("Orange")){
+            if(UseThisArray[i].equalsIgnoreCase("Orange")){
                 UseThisArray[i] = "Apple";
 
             }

@@ -71,7 +71,7 @@ public class Q11 {
             secim();
         }else cıkıs();
     }
-    private static void cıkıs() {
+    public static void cıkıs() {
         System.out.println("cıkısınız yapıldı yine bekleriz selametle :)");
     }
 }

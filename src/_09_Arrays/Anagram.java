@@ -14,8 +14,10 @@ public class Anagram {
 		Scanner input =new Scanner(System.in);
 		System.out.print ("Lutfen Anagram icin 1. degeri giriniz : ");
 		String str1 =input.nextLine().toLowerCase().replace(" ","");
+		System.out.println("str1 = " + str1);
 		System.out.print("Lutfen Anagram icin 2. degeri giriniz : ");
 		String str2 =input.nextLine().toLowerCase().replace(" ","");
+		System.out.println("str2 = " + str2);
 		
 		System.out.println(isAnagram(str1, str2));
 		
@@ -23,8 +25,8 @@ public class Anagram {
 		public static boolean isAnagram(String str1,String str2) {
 		
 		//boolean isAnagram =false;
-		char [] arr1 = str1.replace(" ", "").toLowerCase().toCharArray();
-		char [] arr2 = str2.replace(" ", "").toLowerCase().toCharArray();
+		char [] arr1 = str1.toLowerCase().toCharArray();
+		char [] arr2 = str2.toLowerCase().toCharArray();
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 		System.out.println(arr1);
@@ -32,15 +34,11 @@ public class Anagram {
 		
 		if(str1.length()!=str2.length()) {
 			return false;
-	
 		}
 		for (int i = 0; i < arr2.length; i++) {
 			if(arr1[i]!=arr2[i]) {
 				return false;
 			}
-			
-				
-			
 		}
 		return true;
 

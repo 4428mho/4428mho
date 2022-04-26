@@ -1,6 +1,6 @@
 
 
-            Array’ler object’tir. Bu yuzden
+     Array’ler object’tir. Bu yuzden
     - Heap Memory’de depolanirlar.
     - Value ile birlikte method’lara da sahiptirler - runtime’da olusturulurlar.
     Bir Array nasil declare edilir?
